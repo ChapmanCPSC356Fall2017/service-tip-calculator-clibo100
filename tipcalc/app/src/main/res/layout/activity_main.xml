@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context="com.idkdude.tipcalc.MainActivity">
+
+        <TextView
+            android:textSize="20sp"
+            android:id="@+id/tv_enterprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Price of your meal"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/et_enterprice"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="50dp"/>
+        <EditText
+            android:id="@+id/et_enterrate"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="50dp"/>
+
+        <Button
+            android:id="@+id/btn_enterprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GO"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/btn_enterrate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GO"
+            android:textSize="20sp"/>
+        <TextView
+            android:textSize="20sp"
+            android:id="@+id/tv_displayrate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="20sp"
+            android:id="@+id/tv_displaytip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="20sp"
+            android:id="@+id/tv_displaytotal"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_tryagain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Try again?"
+            android:textSize="20sp"/>
+
+
+
+    </LinearLayout>
+
