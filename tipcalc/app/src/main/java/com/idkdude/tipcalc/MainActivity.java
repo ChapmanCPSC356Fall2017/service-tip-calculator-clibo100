@@ -120,7 +120,7 @@ public class MainActivity extends AppCompatActivity
                 }
 
             }
-        });
+        });  
 
         this.tryAgainButton.setOnClickListener(new View.OnClickListener() {
             @Override
